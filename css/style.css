@@ -1,0 +1,376 @@
+.background{
+  animation-name: visible;
+  animation-duration: 2s;
+}
+.navigation{
+  animation-name: visible;
+  animation-duration: 1s;
+}
+@keyframes visible {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+
+}
+.link:link{
+  color: black;
+}
+.link:visited{
+  color: #65c0ba;
+}
+.link:hover{
+  color: #65c0ba;
+}
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-style: normal;
+}
+
+.reviewDesc{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.blogMainPara{
+  font-size: 18px;
+}
+
+.background {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+.hero {
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.17)
+}
+
+.servicePara {
+  font-size: 18px;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.articlePara {
+  font-size: 18px;
+}
+
+.play:hover .playImg {
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.play:hover {
+  color: rgb(0, 140, 255);
+}
+
+.item {
+  margin-top: 54px;
+}
+
+
+
+.backgroundSlider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.slider-container {
+  position: relative;
+  width: 70%;
+  max-width: 1200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 650px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dots-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  margin-top: -70%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.dot.active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+@media (max-width: 1280px) {
+  .blog{
+    max-width: 35%;
+  }
+  .destinationItem{
+    width: 25%;
+  }
+  .reviewsCount{
+    font-size: 12px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 932px) {
+  .destinationItem{
+    width: 50%;
+    position: relative;
+    left: 13.5%;
+    justify-self: center;
+  }
+  .blog{
+    max-width: 60%;
+    margin: 32px 0px;
+    position: relative;
+    left: 10%;
+  }
+  .blog3{
+    margin: 32px 0px;
+  }
+  .reviewDesc{
+    font-size: 12px;
+  }
+  .reviews{
+    margin: 16px 0px;
+  }
+  .allReviews{
+    justify-self: start;
+    max-width: 100%;
+    margin-left: 20px;
+  }
+  .blog img{
+    height: 250px;
+  }
+  .blogTitle{
+    font-size: 22px;
+  }
+  .blogMainPara{
+    width: 70%;
+    font-size: 16px;
+  }
+  .textSmallBlog{
+    font-size: 12px;
+  }
+  .slide{
+    height: 450px;
+  }
+  .textBig {
+    font-size: 32px;
+  }
+
+  .textSmall {
+    font-size: 24px;
+  }
+
+  .visitBtn {
+    padding: 5px 9px;
+  }
+
+  .serviceHeading{
+    font-size: 24px;
+  }
+  .leftSide {
+    left: 0%;
+    justify-self: center;
+    padding-bottom: 32px;
+  }
+
+  .rightSide {
+    width: 100%;
+    text-align: center;
+    left: 0%;
+  }
+
+  .rightSide button {
+    justify-self: center;
+  }
+  .tourDesc{
+    font-size: 16px;
+  }
+
+}
+@media (max-width: 639px) {
+  .copyright{
+    font-size: 12px;
+  }
+  .footerCta{
+    transform: translateX(54vw);
+  }
+  .plane img{
+    transform: translateX(-320%);
+  }
+}
+@media (max-width: 767px) {
+  .address{
+    display: inline;
+    justify-self: center;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .tourHeading{
+    font-size: 20px;
+  }
+  .tourDesc{
+    font-size: 12px;
+  }
+  .destinationItem{
+    width: 70%;
+    left: 5%;
+  }
+  .allServices{
+    margin-left: 0px;
+  }
+  .reviewsCount{
+    font-size: 14px;
+
+  }
+  .itemTitle{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .visitBtn{
+    width: 90%;
+  }
+  .serviceHeading{
+    width: 150px;
+    font-size: 18px;
+  }
+  .reviewDesc{
+    font-size: 10px;
+  }
+  .allReviews{
+    margin-left: 0px;
+  }
+  .blog{
+    max-width: 70%;
+    left: -5%;
+  }
+}
+
+@media (max-width: 1278px) {
+  .blog3{
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .blog{
+    left: -17%;
+    max-width: 90%;
+  }
+  .blog img{
+    height: 150px;
+  }
+  .blogContent{
+    padding: 15px;
+  }
+  .blogTitle{
+    font-size: 16px;
+  }
+  .date{
+    font-size: 12px;
+  }
+  .textSmallBlog{
+    font-size: 8px;
+  }
+  .textBig {
+    font-size: 24px;
+  }
+
+  .textSmall {
+    font-size: 16px;
+  }
+
+  .visitBtn {
+    font-size: 12px;
+  }
+}

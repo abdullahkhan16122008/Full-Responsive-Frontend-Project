@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepta Resort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background text-white">
+        <header class="flex w-[100wh] px-[18px] pt-[54px]">
+            <div class="logo w-[40%]">
+                <div class="logoText abril-fatface-regular text-3xl">Hepta</div>
+            </div>
+            <div class="burgerMenu transition-all duration-300 block w-[50%]">
+                <button class="burger absolute right-[1%] w-[45px] flex flex-wrap">
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                </button>
+            </div>
+            <nav class="navigation transition-all duration-300 fixed z-50 left-0 right-0 top-0 hidden bottom-0 bg-white content-center">
+              <div class="crossBtn inline-block absolute right-[-1%] top-[-2%]"><button class="cross p-[32px]"><img src="./images/cross.png" alt="" class="h-[96px]"></button></div>
+              <ul class="navLinks justify-self-center">
+                <li class="py-[16px] text-center"><a href="/" class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">Home</a></li>
+
+                <li class="py-[16px] text-center"><a href="/hotels" class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">Hotels</a></li>
+
+                <li class="py-[16px] text-center"><a href="/about" class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">About Us</a></li>
+
+                <li class="py-[16px] text-center"><a href="/gallery" class="link text-black mt-[32px] text-4xl abril-fatface">Gallery</a></li>
+
+                <li class="py-[16px] text-center"><a href="/news" class="link text-black mt-[32px] text-4xl abril-fatface">News</a></li>
+
+                <li class="py-[16px] text-center"><a href="/contact" class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">Contact</a></li>
+              </ul>
+            </nav>
+        </header>
+        <section class="hero h-[90vh] w-full justify-center text-center">
+            <div class="textBig text-7xl abril-fatface-regular font-bold pb-[32px]" data-aos="fade-up">Travel & Tours</div>
+            <div class="textSmall text-3xl font-light pb-[60px]" data-aos="fade-up">A free template by <a href="#"
+                    class="border-b-2 pb-[7px] border-gray-300 text-gray-300 transition-all duration-300 hover:border-white hover:text-white">Colorlib</a>.
+                Download and share!</div>
+            <div
+                class="visitBtn border-2 border-white inline-block px-[46px] text-1xl rounded font-light py-[12px] duration-300 hover:bg-white hover:text-black" data-aos="fade-up">
+                Visit Colorlit</div>
+        </section>
+    </div>
+    <article class="article1 my-[128px]" data-aos="fade-up">
+        <div class="articleMain w-[80%] align-content-center justify-self-center flex flex-wrap">
+            <div class="leftSide w-[450px] relative left-[5%]"><img src="images/travel-men.jpg" alt=""
+                    class="object-fill"></div>
+            <div class="rightSide w-[40%] align-content-center relative left-[10%]">
+                <div class="text-3xl inline-block font-extrabold mb-[32px]">Welcome To Our Website</div>
+                <div class="articlePara text-gray-500 mb-[37px]">Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                    right at the coast of the Semantics, a large language ocean.<br><br> A small river named Duden flows
+                    by their place and supplies it with the necessary regelialia.</div>
+                <button class="flex text-2xl text-blue-400 font-bold play mr-[9px] align-content-center"><img
+                        src="images/play video.png" alt="" class="h-[50px] mt-[-7px] playImg"> Watch This
+                    Video</button>
+            </div>
+        </div>
+    </article>
+
+    <section class="Services text-center py-[128px] px-[32px] bg-gray-50 border-t-1 border-gray-300" data-aos="fade-up">
+        <div class="serviceMain">
+            <div class="topData w-[47%] justify-self-center">
+                <div class="serviceHeading text-4xl font-bold pb-[24px]">Experience Once In Your Life Time</div>
+                <div class="servicePara text-gray-600">Far far away, behind the word mountains, far from the countries
+                    Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
+                    the coast of the Semantics, a large language ocean.</div>
+            </div>
+            <div class="allServices w-[75%] ml-[80px] justify-self-center flex flex-wrap my-[16px]">
+                <div class="item inline-block w-[352px]">
+                    <img src="images/get-foods.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Good Foods</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+
+
+                <div class="item inline-block w-[352px]">
+                    <img src="images/travel-anywhere.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Travel Anywhere</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+
+
+                <div class="item inline-block w-[352px]">
+                    <img src="images/airplane.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Airplane</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+
+
+                <div class="item inline-block w-[352px]">
+                    <img src="images/beach-resort.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Beach Resort</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+
+
+                <div class="item inline-block w-[352px]">
+                    <img src="images/mountain-climbing.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Mountain Climbing</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+
+
+                <div class="item inline-block w-[352px]">
+                    <img src="images/hot-air-balloon.svg" alt="" class="h-[77px] justify-self-center">
+                    <div class="itemName text-3xl font-bold py-[18px]">Hot Air Balloon</div>
+                    <div class="itemDesc text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <section class="sliderSec mt-[128px] text-center" data-aos="fade-up">
+        <div class="sliderMain">
+            <div class="sliderTop w-[45%] justify-self-center">
+                <div class="textBig text-7xl abril-fatface-regular mb-[32px]">International Tour Management.</div>
+                <div class="sliderPara text-2xl text-gray-500 mb-[32px]">Far far away, behind the word mountains, far
+                    from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                    Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="backgroundSlider z-2" data-aos="fade-up">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1725120344808-420e96dd8fdf?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 1"></div>
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1724931282671-2d3bcd6de8f2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 2"></div>
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1724875299388-7257f4af1cf9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 3"></div>
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1724770646663-2a806ed04ca4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 4"></div>
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1723675510074-6e9f59fd3af0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 5"></div>
+                <div class="slide"><img
+                        src="https://images.unsplash.com/photo-1724690416953-c787bc34b56f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 6"></div>
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="dots-container">
+            <span class="dot" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+            <span class="dot" data-index="4"></span>
+            <span class="dot" data-index="5"></span>
+        </div>
+    </section>
+
+
+    <section class="backgroundDiv bg-[#65c0ba] py-[130px] w-[100%]" data-aos="fade-up">
+
+        <section class="blogs">
+            <article class="text-center">
+                <div class="textBig mb-[16px] text-6xl abril-fatface-regular pb-[32px]">Recent Blog Post</div>
+                <div class="blogMainPara text-gray-200 w-[40%] justify-self-center">Far far away, behind the word
+                    mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated
+                    they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</div>
+            </article>
+
+            <div class="blogItems flex flex-wrap">
+                <div class="blogsMain relative left-[10%] flex-wrap w-[80%] justify-self-center mt-[64px]">
+
+
+                    <div class="blog bg-white max-w-[25%] inline-block ml-[32px] translate-x-[70px]">
+                        <img src="images/hagia-sofia.jpg" alt="" class="object-fill w-full h-[220px]">
+                        <div class="blogContent p-[24px]">
+                            <div class="text-gray-400 mb-[9px] mt-[16px] date">14 February 2024</div>
+                            <a href=""class="blogTitle mt-[32px] my-[25px] text-2xl abril-fatface-regular duration-300 hover:text-[#65c0ba]">45 Best Places To Unwind</a>
+                            <div class="textSmallBlog mt-[10px] text-gray-500">Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                        </div>
+                    </div>
+
+
+                    <div class="blog bg-white max-w-[25%] inline-block ml-[32px] translate-x-[70px]">
+                        <img src="images/pak-mountains.jpg" alt="" class="object-fill w-full h-[220px]">
+                        <div class="blogContent p-[24px]">
+                            <div class="text-gray-400 mb-[9px] mt-[16px]">14 February 2024</div>
+                            <a href=""class="blogTitle mt-[32px] my-[25px] text-2xl abril-fatface-regular duration-300 hover:text-[#65c0ba]">45 Best Places To Unwind</a>
+                            <div class="textSmallBlog mt-[10px] text-gray-500">Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="blog blog3 bg-white max-w-[25%] inline-block ml-[32px] translate-x-[70px]">
+                        <img src="images/pak-zameen.jpg" alt="" class="object-fill w-full h-[220px]">
+                        <div class="blogContent p-[24px]">
+                            <div class="text-gray-400 mb-[9px] mt-[16px]">14 February 2024</div>
+                            <a href=""class="blogTitle mt-[32px] my-[25px] text-2xl abril-fatface-regular duration-300 hover:text-[#65c0ba]">45 Best Places To Unwind</a>
+                            <div class="textSmallBlog mt-[10px] text-gray-500">Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <section data-aos="fade-up" class="customers my-[128px] py-[128px] px-[32px] bg-gray-50">
+        <div class="customerMain">
+            <div class="topData w-[47%] text-center justify-self-center">
+                <div class="serviceHeading text-6xl abril-fatface-regular pb-[24px]">Happy Customers</div>
+            </div>
+            <div class="allReviews mx-[9px] my-[32px] w-[72%] ml-[80px] justify-self-center flex flex-wrap">
+
+
+                <div class="reviews mx-[9px] inline-block w-[332px]">
+                    <img src="images/person_1.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+                <div class="reviews mx-[9px] inline-block w-[332px]">
+                    <img src="images/person_2.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+                <div class="reviews mx-[9px] inline-block w-[332px]">
+                    <img src="images/person_3.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up" class="tourDestinations justify-center py-[32px]">
+        <div class="tourDetails text-center w-[48%] justify-self-center">
+            <h1 class="tourHeading abril-fatface-regular pb-[12px] text-[32px]">Top Destinations</h1>
+            <p class="tourDesc text-gray-600 text-[21px] pb-[32px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
+        </div>
+        <div class="destinations flex flex-wrap justify-self-center mt-[18px] justify-center w-[100vw]">
+
+            <div class="destinationMain inline-block w-[80%] justify-center">
+                <div class="w-[100%] flex flex-wrap relative left-[10%]">
+                    
+                    <div class="destinationItem w-[19%] mr-[18px]">
+                    <img src="images/img_1.webp" alt="">
+                    <div class="ItemMain mt-[16px]">
+                        <a href="" class="itemTitle mt-[25px] mb-[38px] text-[20px] abril-fatface-regular duration-300 hover:text-[#65c0ba]">Food & Wines</a>
+                        <div class="flex mb-4">
+                            <span class="flex items-center">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                            </svg>
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+    
+    
+                              <span class="reviewCount text-gray-300 italic text-[15px] pl-[50px]">3239 Reviews</span>
+    
+    
+                            </span>
+                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="destinationItem w-[19%] mr-[18px]">
+                    <img src="images/img_2.webp" alt="">
+                    <div class="ItemMain mt-[16px]">
+                        <a href="" class="itemTitle mt-[25px] mb-[38px] text-[20px] abril-fatface-regular duration-300 hover:text-[#65c0ba]">Food & Wines</a>
+                        <div class="flex mb-4">
+                            <span class="flex items-center">
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+    
+    
+                              <span class="reviewCount text-gray-300 italic text-[15px] pl-[50px]">3239 Reviews</span>
+    
+    
+                            </span>
+                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                            </span>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="destinationItem w-[19%] mr-[18px]">
+                    <img src="images/img_4.webp" alt="">
+                    <div class="ItemMain mt-[16px]">
+                        <a href="" class="itemTitle mt-[25px] mb-[38px] text-[20px] abril-fatface-regular duration-300 hover:text-[#65c0ba]">Food & Wines</a>
+                        <div class="flex mb-4">
+                            <span class="flex items-center">
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+    
+    
+                              <span class="reviewCount text-gray-300 italic text-[15px] pl-[50px]">3239 Reviews</span>
+    
+    
+                            </span>
+                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                            </span>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="destinationItem w-[19%] mr-[18px]">
+                    <img src="images/img_5.webp" alt="">
+                    <div class="ItemMain mt-[16px]">
+                        <a href="" class="itemTitle mt-[25px] mb-[38px] text-[20px] abril-fatface-regular duration-300 hover:text-[#65c0ba]">Food & Wines</a>
+                        <div class="flex mb-4">
+                            <span class="flex items-center">
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-3.5 text-[#65c0ba]" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                              </svg>
+    
+    
+                              <span class="reviewCount text-gray-300 italic text-[15px] pl-[50px]">3239 Reviews</span>
+    
+    
+                            </span>
+                            <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                            </span>
+                          </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer class="text-gray-400 bg-[#0f0f0f] body-font">
+        <div class="container px-5 w-[80%] py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Quick Links</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">About Us</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Terms & Conditions</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Privacy Policy</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Help</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Rooms</a>
+                </li><br>
+            </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Support</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Our Location</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Our Host</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">About</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Contact</a>
+                </li><br>
+                <li>
+                  <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Restaurant</a>
+                </li><br>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Contact Info</h2>
+              <nav class="list-none mb-10">
+                <address>
+                    <li>
+                  <h2 class="title-font text-white font-light text-[19px] mb-3">Address:</h2>
+                      <h2 class="text-[#9b9b9b] py-[9px] address w-[70%]">98 West 21th Street, Suite 721 New York NY 10016</h2>
+                    </li>
+                    <li>
+                  <h2 class="title-font text-white font-light text-[19px] mb-3">Phone:</h2>
+                      <h2 class="text-[#9b9b9b] py-[9px]">(+1) 435 3533</h2>
+                    </li>
+                    <li>
+                  <h2 class="title-font text-white font-light text-[19px] mb-3">Email:</h2>
+                      <h2 class="text-[#9b9b9b] py-[9px]">info@yourdomain.com</h2>
+                    </li>
+                </address>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+              <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                  <label for="footer-field" class="leading-7 text-sm text-[#9b9b9b]">Sign up for our newsletter</label>
+                  <input type="text" id="footer-field" placeholder="Your Email" name="footer-field" class="w-full bg-transparent text-base outline-none text-gray-700 py-2 mt-[12px] px-3 italic border-b-1 border-[#4f4f4f] transition-colors duration-200 focus:border-gray-100 ease-in-out">
+                  <div class="btnDiv w-[100%]">
+                    <button type="submit" class="translate-y-[-50px] float-right">
+                      <!-- plane translate-y-[-50px] translate-x-[650%] justify-self-end cursor-pointer -->
+                        <img src="images/plane.png" alt="" class="h-[34px]">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="bg-gray-900 border-0 h-[1px]">
+        <div class="text-gray-400 bg-[#0f0f0f]">
+          <div class="container py-6 flex items-center sm:flex-row flex-col">
+            <div class="footer-text text-center h-[27vh]">
+                <div class="copyright mt-[32px] text-center w-[100vw]">Copyright © 2025 All rights reserved | This template is made with  by Colorlib</div>
+            </div>
+            <span class="inline-flex mt-4 footerCta translate-x-[-54vw]">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+</body>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
