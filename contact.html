@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepta Resort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+    <div class="backgroundBlog text-white">
+        <header class="flex w-[100wh] px-[18px] pt-[54px]">
+            <div class="logo w-[40%]">
+                <div class="logoText abril-fatface-regular text-3xl">Hepta</div>
+            </div>
+            <div class="burgerMenu transition-all duration-300 block w-[50%]">
+                <button class="burger absolute right-[1%] w-[45px] flex flex-wrap">
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                    <div class="line w-[40px] h-[2px] rounded-full bg-white my-[4px]"></div>
+                </button>
+            </div>
+            <nav
+                class="navigation transition-all duration-300 fixed z-50 left-0 right-0 top-0 hidden bottom-0 bg-white content-center">
+                <div class="crossBtn inline-block absolute right-[-1%] top-[-2%]"><button class="cross p-[32px]"><img
+                            src="./images/cross.png" alt="" class="h-[96px]"></button></div>
+                <ul class="navLinks justify-self-center">
+                    <li class="py-[16px] text-center"><a href="/index.html"
+                            class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">Home</a></li>
+
+                    <li class="py-[16px] text-center"><a href="/hotels.html"
+                            class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">Hotels</a>
+                    </li>
+
+                    <li class="py-[16px] text-center"><a href="./about.html"
+                            class="link text-black mt-[32px] text-4xl abril-fatface-regular duration-300">About Us</a>
+                    </li>
+
+                    <li class="py-[16px] text-center"><a href="./gallery.html"
+                            class="link text-black mt-[32px] text-4xl abril-fatface-regular">Gallery</a></li>
+
+                    <li class="py-[16px] text-center"><a href="./news.html"
+                            class="link text-black mt-[32px] text-4xl abril-fatface-regular">News</a></li>
+
+                    <li class="py-[16px] text-center"><a href="./contact.html"
+                            class="link text-[#65c0ba] mt-[32px] text-4xl abril-fatface-regular duration-300">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero h-[59vh] w-full justify-center text-center">
+            <div class="textBig text-7xl abril-fatface-regular font-bold pb-[32px]" data-aos="fade-up">Contact</div>
+            <div class="textSmall text-3xl font-light pb-[60px]" data-aos="fade-up">A free template by <a href="#"
+                    class="border-b-2 pb-[7px] border-gray-300 text-gray-300 transition-all duration-300 hover:border-white hover:text-white">Colorlib</a>.
+                Download and share!</div>
+        </section>
+    </div>
+
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Left Column - Contact Form -->
+            <div class="bg-white p-8 rounded-lg shadow-sm">
+                <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <label for="" class="text-gray-600 text-[14px] translate-y-[16px]">Name</label>
+                        <label for="" class="text-gray-600 text-[14px] translate-y-[16px]">Phone</label>
+                        <input type="text"
+                            class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="email"
+                            class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <label for="" class="text-gray-600 text-[14px] translate-y-[16px]">Email</label><br>
+                    <input type="text"
+                        class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    <label for="" class="text-gray-600 text-[14px] translate-y-[16px]">Write Messege</label><br>
+
+                    <textarea rows="6"
+                        class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                    <button
+                        class="w-[20%] bg-transparent text-black border-2 msg border-[#65c0ba] py-3 px-6 rounded-lg hover:bg-[#65c0ba] hover:text-white transition">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Right Column - Map & Address -->
+            <div class="space-y-8">
+                <!-- Address Section -->
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+
+                    <div class="text-[#65c0ba] text-[14px] font-bold">Address:</div><br>
+                    <div class="font-bold text-2xl w-[60%]">98 West 21th Street, Suite 721 New York NY 10016</div>
+
+                    <div class="text-[#65c0ba] text-[14px] pt-2.5 font-bold">Phone:</div><br>
+                    <div class="font-bold text-2xl w-[60%]">(+1) 435 3533</div>
+
+                    <div class="text-[#65c0ba] text-[14px] pt-2.5 font-bold">Email:</div><br>
+                    <div class="font-bold text-2xl w-[60%]">info@yourdomain.com</div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+    </main>
+
+
+    <section class="customers my-[128px] py-[128px] px-[32px] bg-gray-50">
+        <div class="customerMain">
+            <div class="topData w-[47%] text-center justify-self-center">
+                <div data-aos="fade-up" class="serviceHeading text-6xl abril-fatface-regular pb-[24px]">Happy Customers
+                </div>
+            </div>
+            <div data-aos="fade-up"
+                class="allReviews mx-[9px] my-[32px] w-[72%] ml-[80px] justify-self-center flex flex-wrap">
+
+
+                <div class="reviews mx-[9px] inline-block w-[332px]" data-aos="fade-up">
+                    <img src="images/person_1.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+                <div class="reviews mx-[9px] inline-block w-[332px]" data-aos="fade-up">
+                    <img src="images/person_2.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+                <div class="reviews mx-[9px] inline-block w-[332px]" data-aos="fade-up">
+                    <img src="images/person_3.webp" alt="" class="h-[60px] rounded-full">
+                    <div class="reviewDesc italic mt-[16px]">“Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+                        Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</div>
+
+                    <div class="reviewName text-gray-500 italic mt-[16px]">— Clare Gupta</div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="text-gray-400 bg-[#0f0f0f] body-font">
+        <div class="container px-5 w-[80%] py-24 mx-auto">
+            <div class="flex flex-wrap md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Quick Links</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">About Us</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Terms & Conditions</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Privacy Policy</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Help</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Rooms</a>
+                        </li><br>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Support</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Our Location</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Our Host</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">About</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Contact</a>
+                        </li><br>
+                        <li>
+                            <a class="text-[#9b9b9b] duration-300 hover:text-gray-200">Restaurant</a>
+                        </li><br>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-white tracking-widest text-[19px] mb-[28px]">Contact Info</h2>
+                    <nav class="list-none mb-10">
+                        <address>
+                            <li>
+                                <h2 class="title-font text-white font-light text-[19px] mb-3">Address:</h2>
+                                <h2 class="text-[#9b9b9b] py-[9px] address w-[70%]">98 West 21th Street, Suite 721 New
+                                    York NY 10016
+                                </h2>
+                            </li>
+                            <li>
+                                <h2 class="title-font text-white font-light text-[19px] mb-3">Phone:</h2>
+                                <h2 class="text-[#9b9b9b] py-[9px]">(+1) 435 3533</h2>
+                            </li>
+                            <li>
+                                <h2 class="title-font text-white font-light text-[19px] mb-3">Email:</h2>
+                                <h2 class="text-[#9b9b9b] py-[9px]">info@yourdomain.com</h2>
+                            </li>
+                        </address>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+                    <div
+                        class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                        <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                            <label for="footer-field" class="leading-7 text-sm text-[#9b9b9b]">Sign up for our
+                                newsletter</label>
+                            <input type="text" id="footer-field" placeholder="Your Email" name="footer-field"
+                                class="w-full bg-transparent text-base outline-none text-gray-700 py-2 mt-[12px] px-3 italic border-b-1 border-[#4f4f4f] transition-colors duration-200 focus:border-gray-100 ease-in-out">
+                            <div class="btnDiv w-[100%]">
+                                <button type="submit" class="translate-y-[-50px] float-right">
+                                    <!-- plane translate-y-[-50px] translate-x-[650%] justify-self-end cursor-pointer -->
+                                    <img src="images/plane.png" alt="" class="h-[34px]">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-gray-900 border-0 h-[1px]">
+        <div class="text-gray-400 bg-[#0f0f0f]">
+            <div class="container py-6 flex items-center sm:flex-row flex-col">
+                <div class="footer-text text-center h-[27vh]">
+                    <div class="copyright mt-[32px] text-center w-[100vw]">Copyright © 2025 All rights reserved | This
+                        template is
+                        made with by Colorlib</div>
+                </div>
+                <span class="inline-flex mt-4 footerCta translate-x-[-54vw]">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
